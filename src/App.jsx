@@ -1,12 +1,14 @@
 import './App.css'
+import UseEffect from './UseEffect'
 import UseState from './UseState'
 
 function App() {
 
   return (
     <div className="App">
-      <UseState/>
-      <hr />
+      {/* <UseState/>
+      <hr /> */}
+      <UseEffect/>
     </div>
   )
 }
