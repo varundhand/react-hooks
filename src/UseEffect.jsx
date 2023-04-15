@@ -29,7 +29,7 @@ const UseEffect = () => {
     return () => { // CLEANUP FOR USE EFFECT HOOK i.e. this runs before the above code and cleans up before event listners before running the useEffect
       window.removeEventListener('resize', handleResize)
     }
-  }, [])
+  }, []) // empty dependency runs on mount 
   return ( 
     <>
       {/* <div>
